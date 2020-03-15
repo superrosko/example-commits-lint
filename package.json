@@ -1,0 +1,47 @@
+{
+  "name": "example-commits-lint",
+  "version": "1.0.0",
+  "description": "A simple example of using commitlint и husky",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superrosko/example-commits-lint.git"
+  },
+  "keywords": [
+    "git",
+    "commits",
+    "conventional",
+    "commitizen",
+    "husky",
+    "commitlint",
+    "npm",
+    "node"
+  ],
+  "author": "Dmitriy Bespalov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superrosko/example-commits-lint/issues"
+  },
+  "homepage": "https://github.com/superrosko/example-commits-lint#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "cz-customizable": "^6.2.0",
+    "husky": "^4.2.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "commitizen.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './commitlint.js'"
+    }
+  }
+}
