@@ -25,7 +25,7 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-contributors]: https://github.com/superrosko/example-commits-lint/contributors
 [link-github]: https://github.com/superrosko/example-commits-lint
 [link-github-tag-version]: https://github.com/superrosko/example-commits-lint
-[link-license]: LICENSE
+[link-license]: LICENSE.md
 
 [ico-github-size]: https://img.shields.io/github/languages/code-size/superrosko/example-commits-lint.svg?style=flat
 [ico-github-top-language]: https://img.shields.io/github/languages/top/superrosko/example-commits-lint.svg?style=flat
