@@ -1,6 +1,6 @@
 {
   "name": "example-commits-lint",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple example of using commitlint и husky",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/superrosko/example-commits-lint#readme",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
-    "cz-customizable": "^6.2.0",
+    "cz-customizable": "^6.2.1",
     "husky": "^4.2.3"
   },
   "config": {
