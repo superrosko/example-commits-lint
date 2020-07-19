@@ -27,10 +27,10 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-github]: https://github.com/superrosko/example-commits-lint
 [link-github-tag-version]: https://github.com/superrosko/example-commits-lint
 [link-license]: LICENSE.md
-[link-snyk]: https://github.com/superrosko/example-scss-lint
+[link-snyk]: https://github.com/superrosko/example-commits-lint
 
 [ico-github-size]: https://img.shields.io/github/languages/code-size/superrosko/example-commits-lint.svg?style=flat
 [ico-github-top-language]: https://img.shields.io/github/languages/top/superrosko/example-commits-lint.svg?style=flat
 [ico-github-tag-version]: https://img.shields.io/github/v/tag/superrosko/example-commits-lint.svg?style=flat
 [ico-license]: https://img.shields.io/github/license/superrosko/example-commits-lint.svg?style=flat
-[ico-snyk]: https://snyk.io/test/github/superrosko/example-scss-lint/badge.svg?targetFile=package.json
+[ico-snyk]: https://snyk.io/test/github/superrosko/example-commits-lint/badge.svg?targetFile=package.json
